@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <radialGradient id="goldGrad" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#FBBF24"/>
+      <stop offset="50%" stop-color="#D97706"/>
+      <stop offset="100%" stop-color="#78350F"/>
+    </radialGradient>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E222D"/>
+      <stop offset="100%" stop-color="#0E1015"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="128" fill="url(#bgGrad)"/>
+  <rect x="16" y="16" width="480" height="480" rx="112" fill="none" stroke="url(#goldGrad)" stroke-width="12" opacity="0.8"/>
+  <g transform="translate(106, 96)">
+    <!-- Beer Mug Silhouette -->
+    <path d="M70 40 L230 40 C238 40 244 46 244 54 L232 250 C230 268 214 282 196 282 L104 282 C86 282 70 268 68 250 L56 54 C56 46 62 40 70 40 Z" fill="url(#goldGrad)"/>
+    <!-- Handle -->
+    <path d="M238 90 L260 90 C280 90 296 106 296 126 L296 194 C296 214 280 230 260 230 L234 230" fill="none" stroke="url(#goldGrad)" stroke-width="28" stroke-linecap="round"/>
+    <!-- Foam Head -->
+    <ellipse cx="90" cy="40" rx="36" ry="24" fill="#FFFFFF"/>
+    <ellipse cx="150" cy="30" rx="42" ry="28" fill="#FFFFFF"/>
+    <ellipse cx="210" cy="40" rx="36" ry="24" fill="#FFFFFF"/>
+    <!-- Mug Highlights -->
+    <line x1="110" y1="80" x2="106" y2="230" stroke="#FFFBEB" stroke-width="12" stroke-linecap="round" opacity="0.4"/>
+    <line x1="150" y1="80" x2="150" y2="230" stroke="#FFFBEB" stroke-width="12" stroke-linecap="round" opacity="0.4"/>
+    <line x1="190" y1="80" x2="194" y2="230" stroke="#FFFBEB" stroke-width="12" stroke-linecap="round" opacity="0.4"/>
+  </g>
+</svg>
